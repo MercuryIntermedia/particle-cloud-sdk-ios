@@ -5,7 +5,7 @@
 //  Copyright © 2016 Particle. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
 
 //! Project version number for ParticleSDK.
 FOUNDATION_EXPORT double ParticleSDKVersionNumber;
