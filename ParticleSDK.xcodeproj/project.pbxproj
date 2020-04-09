@@ -935,6 +935,7 @@
 				PRODUCT_NAME = ParticleSDK;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
@@ -965,6 +966,7 @@
 				PRODUCT_NAME = ParticleSDK;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
