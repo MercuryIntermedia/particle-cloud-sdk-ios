@@ -922,6 +922,18 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -956,6 +968,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = "USE_FRAMEWORKS=1";
 				INFOPLIST_FILE = "$(SRCROOT)/Framework/InfoPods.plist";
