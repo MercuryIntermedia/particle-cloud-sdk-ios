@@ -68,6 +68,31 @@
 		93B0F8402180D17C00D8F8C0 /* ParticlePricingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B0F83D2180D17C00D8F8C0 /* ParticlePricingInfo.m */; };
 		93B0F8412180D17C00D8F8C0 /* ParticlePricingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B0F83D2180D17C00D8F8C0 /* ParticlePricingInfo.m */; };
 		96CEC8BD9E3CA1601FACDB07 /* libPods-ParticleSDKPods-ParticleSDKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 062CEC15EC692AF8217196DA /* libPods-ParticleSDKPods-ParticleSDKTests.a */; };
+		DCFB8CA9243FCA5F009A9B2E /* ParticleSDKOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = DCFB8CA7243FCA5F009A9B2E /* ParticleSDKOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCFB8CAD243FCA7D009A9B2E /* EventSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F9744B20EA7F2200015D9D /* EventSource.h */; };
+		DCFB8CAE243FCA7D009A9B2E /* EventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F9744E20EA7F2200015D9D /* EventSource.m */; };
+		DCFB8CAF243FCA7D009A9B2E /* KeychainHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F9744C20EA7F2200015D9D /* KeychainHelper.h */; };
+		DCFB8CB0243FCA7D009A9B2E /* KeychainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F9744D20EA7F2200015D9D /* KeychainHelper.m */; };
+		DCFB8CB1243FCA7D009A9B2E /* ParticleErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C810B035D36C9EB63EF1A92F /* ParticleErrorHelper.h */; };
+		DCFB8CB2243FCA7D009A9B2E /* ParticleErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C810B0BB68419CEE10A16B09 /* ParticleErrorHelper.m */; };
+		DCFB8CB3243FCA7D009A9B2E /* ParticleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 939CA80221AD906D00A5ED93 /* ParticleLogger.h */; };
+		DCFB8CB4243FCA7D009A9B2E /* ParticleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 939CA80321AD906D00A5ED93 /* ParticleLogger.m */; };
+		DCFB8CB5243FCA86009A9B2E /* ParticleSimInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 93536EAE2257CFEC00A65A94 /* ParticleSimInfo.h */; };
+		DCFB8CB6243FCA86009A9B2E /* ParticleSimInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 93536EAD2257CFEC00A65A94 /* ParticleSimInfo.m */; };
+		DCFB8CB7243FCA86009A9B2E /* ParticlePricingInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B0F83C2180D17C00D8F8C0 /* ParticlePricingInfo.h */; };
+		DCFB8CB8243FCA86009A9B2E /* ParticlePricingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B0F83D2180D17C00D8F8C0 /* ParticlePricingInfo.m */; };
+		DCFB8CB9243FCA86009A9B2E /* ParticleNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 5069CB2C215993C1000B842A /* ParticleNetwork.h */; };
+		DCFB8CBA243FCA86009A9B2E /* ParticleNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5069CB2D215993C1000B842A /* ParticleNetwork.m */; };
+		DCFB8CBB243FCA86009A9B2E /* ParticleCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = C810B01CA34C4A6C2000B1A2 /* ParticleCloud.h */; };
+		DCFB8CBC243FCA86009A9B2E /* ParticleCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = C810BC3A57532BFB19C44AC1 /* ParticleCloud.m */; };
+		DCFB8CBD243FCA86009A9B2E /* ParticleDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C810B1E6CEE43B372124F091 /* ParticleDevice.h */; };
+		DCFB8CBE243FCA86009A9B2E /* ParticleDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C810BDEC8CD2D616568D2306 /* ParticleDevice.m */; };
+		DCFB8CBF243FCA86009A9B2E /* ParticleEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = C810BAC24A15FB7B56D7B06E /* ParticleEvent.h */; };
+		DCFB8CC0243FCA86009A9B2E /* ParticleEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C810B0CE042954AC880666F8 /* ParticleEvent.m */; };
+		DCFB8CC1243FCA86009A9B2E /* ParticleSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C810B8244DD5E3F514CE68DA /* ParticleSession.h */; };
+		DCFB8CC2243FCA86009A9B2E /* ParticleSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C810BD319450F917EFD70A65 /* ParticleSession.m */; };
+		DCFB8CC4243FCAF1009A9B2E /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFB8CC3243FCAF1009A9B2E /* AFNetworking.framework */; };
+		DCFB8CC5243FCAF1009A9B2E /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCFB8CC3243FCAF1009A9B2E /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +111,20 @@
 			remoteInfo = ParticleSDKTestsHost;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCFB8CC6243FCAF1009A9B2E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DCFB8CC5243FCAF1009A9B2E /* AFNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		062CEC15EC692AF8217196DA /* libPods-ParticleSDKPods-ParticleSDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParticleSDKPods-ParticleSDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +181,10 @@
 		C810BC3A57532BFB19C44AC1 /* ParticleCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParticleCloud.m; path = SDK/ParticleCloud.m; sourceTree = "<group>"; };
 		C810BD319450F917EFD70A65 /* ParticleSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParticleSession.m; path = SDK/ParticleSession.m; sourceTree = "<group>"; };
 		C810BDEC8CD2D616568D2306 /* ParticleDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParticleDevice.m; path = SDK/ParticleDevice.m; sourceTree = "<group>"; };
+		DCFB8CA5243FCA5E009A9B2E /* ParticleSDKOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParticleSDKOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFB8CA7243FCA5F009A9B2E /* ParticleSDKOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleSDKOSX.h; sourceTree = "<group>"; };
+		DCFB8CA8243FCA5F009A9B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFB8CC3243FCAF1009A9B2E /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/Mac/AFNetworking.framework; sourceTree = "<group>"; };
 		EEA3C2FAF8A858A381A90725 /* Pods-ParticleSDKPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParticleSDKPods.debug.xcconfig"; path = "Target Support Files/Pods-ParticleSDKPods/Pods-ParticleSDKPods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,6 +221,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCFB8CA2243FCA5E009A9B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFB8CC4243FCAF1009A9B2E /* AFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -188,6 +239,7 @@
 				50E8408E1E95D49C0038ED42 /* ParticleSDK */,
 				930EECB72397F7A00043D980 /* ParticleSDKTests */,
 				930EECE72397FA1A0043D980 /* ParticleSDKTestsHost */,
+				DCFB8CA6243FCA5E009A9B2E /* ParticleSDKOSX */,
 				50E8408D1E95D49C0038ED42 /* Products */,
 				B5482CF76B50CCE25B3C70FC /* Frameworks */,
 				F5661A074AA2AC3929911AC6 /* Pods */,
@@ -201,6 +253,7 @@
 				93944D85210BAF6F00C2DC16 /* ParticleSDK.framework */,
 				930EECB62397F7A00043D980 /* ParticleSDKTests.xctest */,
 				930EECE62397FA1A0043D980 /* ParticleSDKTestsHost.app */,
+				DCFB8CA5243FCA5E009A9B2E /* ParticleSDKOSX.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -298,6 +351,7 @@
 		B5482CF76B50CCE25B3C70FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DCFB8CC3243FCAF1009A9B2E /* AFNetworking.framework */,
 				93331581210BA9C800BEFAD9 /* Security.framework */,
 				93B6689C2109F90700DFF793 /* AFNetworking.framework */,
 				1BA016110586E35DA989AB67 /* libPods-ParticleSDKPods.a */,
@@ -325,6 +379,15 @@
 				C810BD319450F917EFD70A65 /* ParticleSession.m */,
 			);
 			name = SDK;
+			sourceTree = "<group>";
+		};
+		DCFB8CA6243FCA5E009A9B2E /* ParticleSDKOSX */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB8CA7243FCA5F009A9B2E /* ParticleSDKOSX.h */,
+				DCFB8CA8243FCA5F009A9B2E /* Info.plist */,
+			);
+			path = ParticleSDKOSX;
 			sourceTree = "<group>";
 		};
 		F5661A074AA2AC3929911AC6 /* Pods */ = {
@@ -376,6 +439,25 @@
 				93944D7D210BAF6F00C2DC16 /* ParticleDevice.h in Headers */,
 				93944D7E210BAF6F00C2DC16 /* ParticleEvent.h in Headers */,
 				93944D7F210BAF6F00C2DC16 /* ParticleSession.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFB8CA0243FCA5E009A9B2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFB8CBD243FCA86009A9B2E /* ParticleDevice.h in Headers */,
+				DCFB8CB5243FCA86009A9B2E /* ParticleSimInfo.h in Headers */,
+				DCFB8CB7243FCA86009A9B2E /* ParticlePricingInfo.h in Headers */,
+				DCFB8CC1243FCA86009A9B2E /* ParticleSession.h in Headers */,
+				DCFB8CBF243FCA86009A9B2E /* ParticleEvent.h in Headers */,
+				DCFB8CAD243FCA7D009A9B2E /* EventSource.h in Headers */,
+				DCFB8CBB243FCA86009A9B2E /* ParticleCloud.h in Headers */,
+				DCFB8CB1243FCA7D009A9B2E /* ParticleErrorHelper.h in Headers */,
+				DCFB8CAF243FCA7D009A9B2E /* KeychainHelper.h in Headers */,
+				DCFB8CB9243FCA86009A9B2E /* ParticleNetwork.h in Headers */,
+				DCFB8CB3243FCA7D009A9B2E /* ParticleLogger.h in Headers */,
+				DCFB8CA9243FCA5F009A9B2E /* ParticleSDKOSX.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +539,25 @@
 			productReference = 93944D85210BAF6F00C2DC16 /* ParticleSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		DCFB8CA4243FCA5E009A9B2E /* ParticleSDKOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFB8CAC243FCA5F009A9B2E /* Build configuration list for PBXNativeTarget "ParticleSDKOSX" */;
+			buildPhases = (
+				DCFB8CA0243FCA5E009A9B2E /* Headers */,
+				DCFB8CA1243FCA5E009A9B2E /* Sources */,
+				DCFB8CA2243FCA5E009A9B2E /* Frameworks */,
+				DCFB8CA3243FCA5E009A9B2E /* Resources */,
+				DCFB8CC6243FCAF1009A9B2E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParticleSDKOSX;
+			productName = ParticleSDKOSX;
+			productReference = DCFB8CA5243FCA5E009A9B2E /* ParticleSDKOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -487,6 +588,11 @@
 						DevelopmentTeam = TNJ67X9MQD;
 						ProvisioningStyle = Automatic;
 					};
+					DCFB8CA4243FCA5E009A9B2E = {
+						CreatedOnToolsVersion = 11.4;
+						DevelopmentTeam = LRRV3MM4H4;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 50E840861E95D49C0038ED42 /* Build configuration list for PBXProject "ParticleSDK" */;
@@ -507,6 +613,7 @@
 				9352CD31210B8268005EB505 /* ParticleSDKCarthage */,
 				930EECB52397F7A00043D980 /* ParticleSDKTests */,
 				930EECE52397FA1A0043D980 /* ParticleSDKTestsHost */,
+				DCFB8CA4243FCA5E009A9B2E /* ParticleSDKOSX */,
 			);
 		};
 /* End PBXProject section */
@@ -537,6 +644,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		93944D80210BAF6F00C2DC16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFB8CA3243FCA5E009A9B2E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -663,6 +777,24 @@
 				93944D72210BAF6F00C2DC16 /* ParticleDevice.m in Sources */,
 				93944D73210BAF6F00C2DC16 /* ParticleEvent.m in Sources */,
 				93944D74210BAF6F00C2DC16 /* ParticleSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFB8CA1243FCA5E009A9B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFB8CB2243FCA7D009A9B2E /* ParticleErrorHelper.m in Sources */,
+				DCFB8CBA243FCA86009A9B2E /* ParticleNetwork.m in Sources */,
+				DCFB8CBE243FCA86009A9B2E /* ParticleDevice.m in Sources */,
+				DCFB8CAE243FCA7D009A9B2E /* EventSource.m in Sources */,
+				DCFB8CB8243FCA86009A9B2E /* ParticlePricingInfo.m in Sources */,
+				DCFB8CB0243FCA7D009A9B2E /* KeychainHelper.m in Sources */,
+				DCFB8CBC243FCA86009A9B2E /* ParticleCloud.m in Sources */,
+				DCFB8CB4243FCA7D009A9B2E /* ParticleLogger.m in Sources */,
+				DCFB8CC0243FCA86009A9B2E /* ParticleEvent.m in Sources */,
+				DCFB8CC2243FCA86009A9B2E /* ParticleSession.m in Sources */,
+				DCFB8CB6243FCA86009A9B2E /* ParticleSimInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1028,6 +1160,82 @@
 			};
 			name = Release;
 		};
+		DCFB8CAA243FCA5F009A9B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LRRV3MM4H4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"USE_FRAMEWORKS=1",
+				);
+				INFOPLIST_FILE = ParticleSDKOSX/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mercury.ParticleSDKOSX;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DCFB8CAB243FCA5F009A9B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LRRV3MM4H4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = "USE_FRAMEWORKS=1";
+				INFOPLIST_FILE = ParticleSDKOSX/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mercury.ParticleSDKOSX;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1072,6 +1280,15 @@
 			buildConfigurations = (
 				93944D83210BAF6F00C2DC16 /* Debug */,
 				93944D84210BAF6F00C2DC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFB8CAC243FCA5F009A9B2E /* Build configuration list for PBXNativeTarget "ParticleSDKOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFB8CAA243FCA5F009A9B2E /* Debug */,
+				DCFB8CAB243FCA5F009A9B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
